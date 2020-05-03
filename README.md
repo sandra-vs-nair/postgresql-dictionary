@@ -1,4 +1,4 @@
-## Dictionary application using Python and PostgreSQL.
+# Dictionary application using Python and PostgreSQL.
 
 This project demonstrates a dictinary application using python and postgreSQL. The user is prompted for an input which is expected to be the word to which the meaning is sought for. It deals with two scenarios.
 1. Word is found: Here, the meaning of the word is displayed.
@@ -6,7 +6,7 @@ This project demonstrates a dictinary application using python and postgreSQL. T
 	(a) If similar words are found, the user is queried whether it is the word he actually meant. If yes, meaning of the word is returned, else a suitable message is displayed and program is exited.
 	(b) If similar words are not found, a suitable message is displayed and program is exited.
 
-# Prerequisites
+## Prerequisites
 
 The dictionary data should be saved as a table in postgreSQL. The data is provided as a json file dictionary.json. For connecting with postgeSQL, a python module psycopg2 should be installed. Inorder to install that, use the command
 
@@ -21,7 +21,7 @@ pip3 install psycopg2
 
 ````
 
-# Usage
+## Usage
 
 To create the postgreSQL database:
 1. Login to postgreSQL and create a database named dictionary-database. 
